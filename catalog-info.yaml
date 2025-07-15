@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: my-service-template
+  title: My Service Template
+  description: Scaffold a new service
+  tags:
+    - service
+    - example
+spec:
+  owner: user:guest
+  type: service
+  path: ./template.yaml
