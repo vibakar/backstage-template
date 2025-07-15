@@ -11,3 +11,4 @@ spec:
   owner: user:guest
   type: service
   path: ./template.yaml
+  lifecycle: experimental
